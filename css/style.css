@@ -1,0 +1,640 @@
+﻿@charset "utf-8";
+
+body {
+    font-family: 'Heebo', sans-serif;
+    direction: rtl;
+	font-size: 0;
+	margin: 0;
+	/*background: url("../images/bkg.jpg") no-repeat center top;*/
+	color: #040D11;
+}
+
+a { color: #fff; cursor: pointer; text-decoration: none; }
+ul{ list-style: none; }
+#warper { transform-origin: center top; }
+
+.clearBoth{ clear: both; height: 1px;}
+
+.section1 {
+    height: 1110px;
+	background: url("../images/sec1.jpg") no-repeat top center;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logos {
+    text-align: left;
+    margin-top: 42px;
+}
+
+.sec1Left {
+    float: left;
+    width: 596px;
+    margin-top: 202px;
+}
+
+.shiriLogo {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(242, 96, 15);
+    font-weight: 500;
+    margin-top: 26px;
+    letter-spacing: -0.7px;
+}
+
+.sec1Btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    width: 570px;
+    margin-right: 7px;
+}
+
+.sec1Btn {
+    background: #e86720 url(../images/sec1_btn.png) no-repeat 8% center;
+    width: 275px;
+    height: 52px;
+    font-size: 24px;
+    display: inline-flex;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s linear;
+}
+
+.sec1Btn:hover{
+	background-color: #ffb301;
+}
+
+.sec1Btn2{
+	background-position:  16% center;
+}
+
+.sec1Text {
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin: 17px auto 0;
+    width: 94%;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+.sec1Text strong{
+	font-weight: 900;
+	color: #f2600f;
+}
+
+
+.section2{
+	height: 966px;
+	background: url(../images/sec2.jpg) no-repeat top center;
+}
+
+.sec2Left {
+    float: left;
+    width: 556px;
+    margin-top: 197px;
+}
+
+.sec2Grid {
+    display: grid;
+    grid-template-rows: 72px 181px auto;
+}
+
+.sec2GridRow {
+    display: grid;
+    grid-template-columns: 46px 1fr;
+}
+
+.sec2GridTitle{
+	font-size: 40px;
+	font-weight: 500;
+	letter-spacing: -0.7px;
+	color: #f2600f;
+}
+
+.sec2GridNum{
+	font-size: 28px;
+	font-weight: 900;
+	margin-top: 4px;
+	color: #f2600f;
+}
+
+.sec2GridNum span {
+    position: relative;
+    top: 4px;
+    right: 4px;
+}
+
+.sec2Gridtext {
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1.8;
+    letter-spacing: -0.5px;
+}
+
+.section3{
+	height: 791px;
+	background: url(../images/sec3.jpg) no-repeat top center;
+}
+
+.sec3Grid {
+    display: grid;
+    grid-template-rows: 238px auto;
+    margin-top: 154px;
+    margin-right: 9px;
+    width: 603px;
+}
+
+.sec3GridRow {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.sec3GridText {
+    color: #fff;
+}
+
+.sec3GridOrangeText {
+    font-weight: 700;
+    width: 420px;
+	color: #f2600f;
+}
+
+.section4{
+	height: 1319px;
+	background: url(../images/sec4.jpg) no-repeat top center;
+}
+
+.sec4OrangeContainer {
+    /*background: rgba(0, 0, 0, 0.3);*/
+    width: 824px;
+    height: 868px;
+    float: left;
+    margin-top: 450px;
+    margin-left: -27px;
+    box-sizing: border-box;
+    padding: 83px 60px 0 20px;
+	color: #fff;
+}
+
+.sec4Title {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    margin-right: 7px;
+}
+
+.sec4Text {
+    font-size: 25px;
+    margin-top: 19px;
+    letter-spacing: -0.5px;
+    line-height: 1.8;
+	font-weight: 400;
+}
+
+.sec4Text p{
+	margin-top: 46px;
+}
+
+.sec4Text p:first-of-type{ margin-top: 0;}
+
+.section5{
+	height: 912px;
+	background: url(../images/sec5.jpg) no-repeat top center;
+}
+
+.shiriLogoBottom {
+    text-align: center;
+    margin-top: 156px;
+}
+
+.bottomTitle {
+    font-size: 40px;
+    color: rgb(242, 96, 15);
+    font-weight: 500;
+    margin-top: 26px;
+    letter-spacing: -0.7px;
+	text-align: center;
+}	
+
+.sec5Btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 22px auto 0;
+    width: 588px;
+}
+
+.back2Top {
+    padding-top: 78px;
+    background: url(../images/arr_up.png) no-repeat top center;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    margin: 344px auto 0;
+    width: 100%;
+	display: block;
+}
+
+.earsResponsive, .phoneResponsive {
+	display: none;
+}
+
+#section2Top, #section3Top, #section4Top{
+	position: relative;
+	top: -72px
+}
+
+input:-internal-autofill-previewed, input:-internal-autofill-selected{
+	background: transparent;
+}
+
+.white-theme , .dark-theme{
+	filter: grayscale(100%);
+}
+
+.white-theme .sec4Btn{
+	background: #eee;
+}
+
+.white-theme a:hover .sec4Btn {
+    background: #ddd;
+}
+.white-theme .back2Top a {
+    color: #000;
+}
+
+.white-theme .back2Top {
+    background: url("../images/arr_up_black.png") no-repeat top center;
+}
+
+/*	::-moz-selection { background: #000; }
+	::selection { background: #000; }
+	p::-moz-selection { color: red}
+	p::selection { color: red; }*/
+
+
+
+@media (max-width: 1300px) {
+    .container {
+        max-width: 95%;
+    }
+	
+	.section1 {
+		height: 734px;
+		background: #121314 url(../images/sec1_1300.jpg) no-repeat bottom center;
+		background-size: 530px;
+	}
+	
+	.logos {
+		margin-top: 1%;
+	}
+	
+	.sec1Left {
+		width: 570px;
+		margin: 2% auto 0;
+		float: none;
+	}
+	
+	h1 {
+		font-size: 38px;
+		text-align: center;
+	}
+	
+	.sec1Btns {
+		margin-right: 0;
+	}
+	
+	.sec1Text {
+    	width: auto;
+	}
+	
+	.section2 {
+		height: 792px;
+		background: url(../images/sec2_1300.jpg) no-repeat center center;
+		background-size: cover;
+	}
+	
+	.section2 .container{
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		height: 792px;
+	}
+	
+	.sec2Left {
+		float: left;
+		width: 53%;
+		margin-top: 0px;
+	}
+
+	.section3 {
+		height: 792px;
+		background: url(../images/sec3_1300.jpg) no-repeat center left;
+		background-size: cover;
+	}
+	
+	.sec3Grid {
+		display: grid;
+		grid-template-rows: 238px auto;
+		margin-top: 0px;
+		margin-right: 0;
+		width: 54%;
+	}
+	
+	.section3 .container{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		height: 792px;
+	}
+	
+	.section4 {
+		height: 860px;
+		background: url(../images/sec4_1300.jpg) no-repeat center;
+		background-size: cover;
+	}
+	.section4 .container{
+		height: 860px;
+	}
+	.sec4OrangeContainer {
+		background: #f2600f;
+		width: 86%;
+		height: auto;
+		float: none;
+		margin-top: 0;
+		margin-left: 0;
+		padding: 5% 4%;
+		color: #fff;
+		position: absolute;
+		bottom: 0;
+	}
+	
+}
+
+@media (max-width: 900px) {
+    .container {
+        max-width: 94%;
+    }
+	
+	.section2 {
+		height: auto;
+		padding-bottom: 0;
+		background: url(../images/sec2_800.jpg) no-repeat center center;
+		background-size: cover;
+	}
+	
+	.section2 .container, .section3 .container {
+		display: block;
+		height: auto;
+	}
+	
+	.sec2Left {
+		float: none;
+		width: auto;
+		margin-top: 10%;
+	}
+	
+	.sec2Grid {
+		grid-template-rows: auto auto auto;
+	}
+	
+	.sec2GridRow {
+		margin-top: 3%;
+	}
+	
+	.earsResponsive {
+		display: block;
+		margin-top: 6%;
+	}
+	
+	.section3 {
+		height: auto;
+		padding-bottom: 3%;
+		background: url(../images/sec3_900.jpg) no-repeat center center;
+		background-size: cover;
+	}
+	
+	.sec3Grid {
+		grid-template-rows: auto;
+		margin-top: 14%;
+		margin-right: 0;
+		width: auto;
+	}
+	
+	.sec3GridOrangeText {
+		width: auto;
+	}
+	
+	.phoneResponsive {
+		display: block;
+		text-align: center;
+		margin-top: 5%;
+	}
+	
+	.sec4OrangeContainer {
+    	width: 90%;
+	}
+	
+}
+
+
+@media (max-width: 700px) {
+	h1 {
+    	font-size: 36px;
+	}
+	
+	.sec1Left {
+		width: auto;
+		margin: 8% auto 0;
+	}
+	
+	.shiriLogo img {
+		width: 94px;
+	}
+	
+	.sec1Btns {
+		width: auto;
+		margin: 14px auto;
+	}
+	
+	.sec1Btn {
+    	width: 49%;
+	}
+	
+	.sec2GridTitle {
+		font-size: 36px;
+	}
+	.sec2Gridtext {
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 1.7;
+		letter-spacing: -0.2px;
+	}
+	
+	.phoneResponsive {
+		margin-top: 8%;
+	}
+	
+	.phoneResponsive img{
+		width: 108px;
+	}
+	
+	.sec4Title {
+		font-size: 36px;
+		letter-spacing: -0.2px;
+		margin-right: 0;
+	}
+	
+	.sec4Text {
+		font-size: 22px;
+		letter-spacing: -0.2px;
+		line-height: 1.7;
+	}
+	
+
+	.sec4Text p {
+		margin-top: 36px;
+	}
+	
+	.section4, .section4 .container {
+    	height: auto;
+	}
+	
+	.sec4OrangeContainer {
+		width: 92%;
+		position: static;
+		margin: 14% 0 0;
+		padding: 5% 7%;
+	}
+
+	.section5 {
+		height: auto;
+		background-size: cover;
+		padding-bottom: 3%;
+	}
+	
+	.shiriLogoBottom {
+		margin-top: 20%;
+	}
+	
+	.bottomTitle {
+    	font-size: 36px;
+	}
+	
+	.sec5Btns {
+		width: auto;
+	}
+	
+	.back2Top {
+    	margin: 25% auto 0;
+	}
+}
+
+
+
+@media (max-width: 560px) {
+	.logos {
+		margin-top: 3%;
+	}
+
+	h1 {
+    	margin-top: 3%;
+	}
+	
+	.sec1Btns {
+    	display: block;
+	}
+	
+	.sec1Btn {
+		width: 84%;
+		margin: 2% auto 0;
+		background: #e86720 url(../images/sec1_btn.png) no-repeat 9% center;
+		display: flex;
+	}
+	
+	.section1 {
+    	height: 800px;
+	}
+	
+	.sec5Btns{
+	    display: block;
+	}
+	
+	.sec4OrangeContainer {
+		width: 96%;
+		padding: 5% 6%;
+	}
+	
+}
+
+@media (max-width: 480px) {
+	.shiriLogo img {
+		width: 78px;
+	}
+	
+	h1, .sec2GridTitle, .sec4Title, .bottomTitle {
+		font-size: 32px;
+	}
+
+	.sec1Text {
+		font-size: 23px;
+		letter-spacing: 0;
+	}
+	
+	.section1 {
+		height: 758px;
+		background-size: 460px;
+	}
+	
+	.sec2Gridtext {
+   		font-size: 19px;
+	}
+	
+	.sec2GridNum {
+		font-size: 26px;
+		margin-top: 0;
+	}
+	
+	.sec2GridRow, .sec3GridRow {
+		grid-template-columns: 41px 1fr;
+		margin-top: 5%;
+	}
+	
+	.earsResponsive {
+		margin-top: 8%;
+	}
+	
+	.earsResponsive img{width: 178px;}
+	
+	.phoneResponsive img {
+		width: 100px;
+	}
+	
+	.sec4Text {
+		font-size: 19px;
+		letter-spacing: 0;
+	}
+	
+	.sec4OrangeContainer{
+		 margin: 24% 0 0;
+	}
+	
+	.shiriLogoBottom img{
+		width: 98px;
+	}
+}
+
+
+
+
+
+
